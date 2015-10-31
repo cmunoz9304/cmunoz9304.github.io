@@ -1,0 +1,37 @@
+<<html>
+<head>
+	<title>Sitio JavaScript</title>
+	 <meta content="">	 	 
+</head>
+<body>
+	
+	<h1>SITIO CON JAVASCRIPT</h1>
+	<div>
+		<label> valor 1</label>
+		<input type="text" id="val1" onkeypress="ValidaSoloNumeros()"></input>
+	</div>
+	<br>
+
+	<div>
+		<label> valor 2</label>
+		<input type="text" id="val2"></input>
+	</div>
+
+	<br>
+	<br>
+	<div>
+		<label>Resultado:</label>
+		<textarea id="resultado"></textarea>
+		<br>
+	<!-- <input onclick="censurar()" type="button" value="Calcular"></input> -->
+	<input onclick="suma()" type="button" value="Sumar"></input>
+	<input onclick="resta()" type="button" value="Restar"></input>
+	<input onclick="multi()" type="button" value="Multiplicar"></input>
+	<input onclick="divi()" type="button" value="Dividir"></input>
+
+	<input onclick="reset()" type="button" value="Reset"></input>
+
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
